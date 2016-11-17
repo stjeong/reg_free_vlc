@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity version="2.1.3.0" processorArchitecture="x86" 
+     name="axvlc.dll" type="win32">
+  </assemblyIdentity>
+  
+  <file name="axvlc.dll">
+    <comClass clsid="{E23FE9C6-778E-49D4-B537-38FCDE4887D8}" threadingModel="Apartment">
+    </comClass>
+    <comClass clsid="{9BE31822-FDAD-461B-AD51-BE1D1C159921}" threadingModel="Apartment">
+    </comClass>
+    <typelib tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}" version="1.0" 
+             helpdir="VLC 1.0 Type Library">
+    </typelib>
+  </file>
+
+  <comInterfaceExternalProxyStub name="IVLCControl" 
+                                 iid="{C2FA41D0-B113-476E-AC8C-9BD14999C1C1}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCAudio" 
+                                 iid="{9E0BD17B-2D3C-4656-B94D-03084F3FD9D4}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCInput" 
+                                 iid="{49E0DBD1-9440-466C-9C97-95C67190C603}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCLogo" 
+                                 iid="{8A4A20C2-93F3-44E8-8644-BEB2E3487E84}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCDeinterlace" 
+                                 iid="{BC97469F-CB11-4037-8DCE-5FC9F5F85307}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCMarquee" 
+                                 iid="{8D076AD6-9B6F-4150-A0FD-5D7E8C8CB02C}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCPlaylist" 
+                                 iid="{54613049-40BF-4035-9E70-0A9312C0188D}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCPlaylistItems" 
+                                 iid="{FD37FE32-82BC-4A25-B056-315F4DBB194D}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCSubtitle" 
+                                 iid="{465E787A-0556-452F-9477-954E4A940003}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCVideo" 
+                                 iid="{0AAEDF0B-D333-4B27-A0C6-BBF31413A42E}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCControl2" 
+                                 iid="{2D719729-5333-406C-BF12-8DE787FD65E3}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+  <comInterfaceExternalProxyStub name="IVLCMediaDescription" 
+                                 iid="{796A2C2D-5B11-4FB5-9077-56D5E674972B}" 
+                                 proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" 
+                                 baseInterface="{00000000-0000-0000-C000-000000000046}" 
+                                 tlbid="{DF2BBE39-40A8-433B-A279-073F48DA94B6}">
+  </comInterfaceExternalProxyStub>
+
+</assembly>

@@ -1,0 +1,363 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{4D37A724-C283-4FF0-B7ED-2C82B3A9C0F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VLC", "VLC", "{68825DBC-7E63-4772-A32D-1357D4858A1B}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\axvlc.dll = VLC\axvlc.dll
+		VLC\libvlc.dll = VLC\libvlc.dll
+		VLC\libvlccore.dll = VLC\libvlccore.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "access", "access", "{D63784DB-5255-45C3-A554-5162DF794606}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\access\libaccess_attachment_plugin.dll = VLC\plugins\access\libaccess_attachment_plugin.dll
+		VLC\plugins\access\libaccess_bd_plugin.dll = VLC\plugins\access\libaccess_bd_plugin.dll
+		VLC\plugins\access\libaccess_ftp_plugin.dll = VLC\plugins\access\libaccess_ftp_plugin.dll
+		VLC\plugins\access\libaccess_http_plugin.dll = VLC\plugins\access\libaccess_http_plugin.dll
+		VLC\plugins\access\libaccess_imem_plugin.dll = VLC\plugins\access\libaccess_imem_plugin.dll
+		VLC\plugins\access\libaccess_mms_plugin.dll = VLC\plugins\access\libaccess_mms_plugin.dll
+		VLC\plugins\access\libaccess_rar_plugin.dll = VLC\plugins\access\libaccess_rar_plugin.dll
+		VLC\plugins\access\libaccess_realrtsp_plugin.dll = VLC\plugins\access\libaccess_realrtsp_plugin.dll
+		VLC\plugins\access\libaccess_smb_plugin.dll = VLC\plugins\access\libaccess_smb_plugin.dll
+		VLC\plugins\access\libaccess_tcp_plugin.dll = VLC\plugins\access\libaccess_tcp_plugin.dll
+		VLC\plugins\access\libaccess_udp_plugin.dll = VLC\plugins\access\libaccess_udp_plugin.dll
+		VLC\plugins\access\libaccess_vdr_plugin.dll = VLC\plugins\access\libaccess_vdr_plugin.dll
+		VLC\plugins\access\libcdda_plugin.dll = VLC\plugins\access\libcdda_plugin.dll
+		VLC\plugins\access\libdshow_plugin.dll = VLC\plugins\access\libdshow_plugin.dll
+		VLC\plugins\access\libdtv_plugin.dll = VLC\plugins\access\libdtv_plugin.dll
+		VLC\plugins\access\libdvdnav_plugin.dll = VLC\plugins\access\libdvdnav_plugin.dll
+		VLC\plugins\access\libdvdread_plugin.dll = VLC\plugins\access\libdvdread_plugin.dll
+		VLC\plugins\access\libfilesystem_plugin.dll = VLC\plugins\access\libfilesystem_plugin.dll
+		VLC\plugins\access\libidummy_plugin.dll = VLC\plugins\access\libidummy_plugin.dll
+		VLC\plugins\access\liblibbluray_plugin.dll = VLC\plugins\access\liblibbluray_plugin.dll
+		VLC\plugins\access\liblive555_plugin.dll = VLC\plugins\access\liblive555_plugin.dll
+		VLC\plugins\access\librtp_plugin.dll = VLC\plugins\access\librtp_plugin.dll
+		VLC\plugins\access\libscreen_plugin.dll = VLC\plugins\access\libscreen_plugin.dll
+		VLC\plugins\access\libsdp_plugin.dll = VLC\plugins\access\libsdp_plugin.dll
+		VLC\plugins\access\libshm_plugin.dll = VLC\plugins\access\libshm_plugin.dll
+		VLC\plugins\access\libstream_filter_rar_plugin.dll = VLC\plugins\access\libstream_filter_rar_plugin.dll
+		VLC\plugins\access\libtimecode_plugin.dll = VLC\plugins\access\libtimecode_plugin.dll
+		VLC\plugins\access\libvcd_plugin.dll = VLC\plugins\access\libvcd_plugin.dll
+		VLC\plugins\access\libzip_plugin.dll = VLC\plugins\access\libzip_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "audio_filter", "audio_filter", "{6EE82D27-B258-4DDD-8DD2-8CDFC12ED916}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\audio_filter\liba52tofloat32_plugin.dll = VLC\plugins\audio_filter\liba52tofloat32_plugin.dll
+		VLC\plugins\audio_filter\liba52tospdif_plugin.dll = VLC\plugins\audio_filter\liba52tospdif_plugin.dll
+		VLC\plugins\audio_filter\libaudio_format_plugin.dll = VLC\plugins\audio_filter\libaudio_format_plugin.dll
+		VLC\plugins\audio_filter\libaudiobargraph_a_plugin.dll = VLC\plugins\audio_filter\libaudiobargraph_a_plugin.dll
+		VLC\plugins\audio_filter\libchorus_flanger_plugin.dll = VLC\plugins\audio_filter\libchorus_flanger_plugin.dll
+		VLC\plugins\audio_filter\libcompressor_plugin.dll = VLC\plugins\audio_filter\libcompressor_plugin.dll
+		VLC\plugins\audio_filter\libdolby_surround_decoder_plugin.dll = VLC\plugins\audio_filter\libdolby_surround_decoder_plugin.dll
+		VLC\plugins\audio_filter\libdtstofloat32_plugin.dll = VLC\plugins\audio_filter\libdtstofloat32_plugin.dll
+		VLC\plugins\audio_filter\libdtstospdif_plugin.dll = VLC\plugins\audio_filter\libdtstospdif_plugin.dll
+		VLC\plugins\audio_filter\libequalizer_plugin.dll = VLC\plugins\audio_filter\libequalizer_plugin.dll
+		VLC\plugins\audio_filter\libgain_plugin.dll = VLC\plugins\audio_filter\libgain_plugin.dll
+		VLC\plugins\audio_filter\libheadphone_channel_mixer_plugin.dll = VLC\plugins\audio_filter\libheadphone_channel_mixer_plugin.dll
+		VLC\plugins\audio_filter\libkaraoke_plugin.dll = VLC\plugins\audio_filter\libkaraoke_plugin.dll
+		VLC\plugins\audio_filter\libmono_plugin.dll = VLC\plugins\audio_filter\libmono_plugin.dll
+		VLC\plugins\audio_filter\libmpgatofixed32_plugin.dll = VLC\plugins\audio_filter\libmpgatofixed32_plugin.dll
+		VLC\plugins\audio_filter\libnormvol_plugin.dll = VLC\plugins\audio_filter\libnormvol_plugin.dll
+		VLC\plugins\audio_filter\libparam_eq_plugin.dll = VLC\plugins\audio_filter\libparam_eq_plugin.dll
+		VLC\plugins\audio_filter\libremap_plugin.dll = VLC\plugins\audio_filter\libremap_plugin.dll
+		VLC\plugins\audio_filter\libsamplerate_plugin.dll = VLC\plugins\audio_filter\libsamplerate_plugin.dll
+		VLC\plugins\audio_filter\libscaletempo_plugin.dll = VLC\plugins\audio_filter\libscaletempo_plugin.dll
+		VLC\plugins\audio_filter\libsimple_channel_mixer_plugin.dll = VLC\plugins\audio_filter\libsimple_channel_mixer_plugin.dll
+		VLC\plugins\audio_filter\libspatializer_plugin.dll = VLC\plugins\audio_filter\libspatializer_plugin.dll
+		VLC\plugins\audio_filter\libspeex_resampler_plugin.dll = VLC\plugins\audio_filter\libspeex_resampler_plugin.dll
+		VLC\plugins\audio_filter\libstereo_widen_plugin.dll = VLC\plugins\audio_filter\libstereo_widen_plugin.dll
+		VLC\plugins\audio_filter\libtrivial_channel_mixer_plugin.dll = VLC\plugins\audio_filter\libtrivial_channel_mixer_plugin.dll
+		VLC\plugins\audio_filter\libugly_resampler_plugin.dll = VLC\plugins\audio_filter\libugly_resampler_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "audio_mixer", "audio_mixer", "{2F9AA692-CF9A-4C75-A335-A8692F27CA89}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\audio_mixer\libfloat_mixer_plugin.dll = VLC\plugins\audio_mixer\libfloat_mixer_plugin.dll
+		VLC\plugins\audio_mixer\libinteger_mixer_plugin.dll = VLC\plugins\audio_mixer\libinteger_mixer_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "audio_output", "audio_output", "{0FB1729C-0CDE-43B8-8464-830FBAFDC180}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\audio_output\libadummy_plugin.dll = VLC\plugins\audio_output\libadummy_plugin.dll
+		VLC\plugins\audio_output\libafile_plugin.dll = VLC\plugins\audio_output\libafile_plugin.dll
+		VLC\plugins\audio_output\libamem_plugin.dll = VLC\plugins\audio_output\libamem_plugin.dll
+		VLC\plugins\audio_output\libdirectsound_plugin.dll = VLC\plugins\audio_output\libdirectsound_plugin.dll
+		VLC\plugins\audio_output\libmmdevice_plugin.dll = VLC\plugins\audio_output\libmmdevice_plugin.dll
+		VLC\plugins\audio_output\libwaveout_plugin.dll = VLC\plugins\audio_output\libwaveout_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "codec", "codec", "{BC5AAEED-3346-4305-A6AA-CC0943017AEB}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\codec\liba52_plugin.dll = VLC\plugins\codec\liba52_plugin.dll
+		VLC\plugins\codec\libadpcm_plugin.dll = VLC\plugins\codec\libadpcm_plugin.dll
+		VLC\plugins\codec\libaes3_plugin.dll = VLC\plugins\codec\libaes3_plugin.dll
+		VLC\plugins\codec\libaraw_plugin.dll = VLC\plugins\codec\libaraw_plugin.dll
+		VLC\plugins\codec\libavcodec_plugin.dll = VLC\plugins\codec\libavcodec_plugin.dll
+		VLC\plugins\codec\libcc_plugin.dll = VLC\plugins\codec\libcc_plugin.dll
+		VLC\plugins\codec\libcdg_plugin.dll = VLC\plugins\codec\libcdg_plugin.dll
+		VLC\plugins\codec\libcrystalhd_plugin.dll = VLC\plugins\codec\libcrystalhd_plugin.dll
+		VLC\plugins\codec\libcvdsub_plugin.dll = VLC\plugins\codec\libcvdsub_plugin.dll
+		VLC\plugins\codec\libddummy_plugin.dll = VLC\plugins\codec\libddummy_plugin.dll
+		VLC\plugins\codec\libdmo_plugin.dll = VLC\plugins\codec\libdmo_plugin.dll
+		VLC\plugins\codec\libdts_plugin.dll = VLC\plugins\codec\libdts_plugin.dll
+		VLC\plugins\codec\libdvbsub_plugin.dll = VLC\plugins\codec\libdvbsub_plugin.dll
+		VLC\plugins\codec\libdxva2_plugin.dll = VLC\plugins\codec\libdxva2_plugin.dll
+		VLC\plugins\codec\libedummy_plugin.dll = VLC\plugins\codec\libedummy_plugin.dll
+		VLC\plugins\codec\libfaad_plugin.dll = VLC\plugins\codec\libfaad_plugin.dll
+		VLC\plugins\codec\libflac_plugin.dll = VLC\plugins\codec\libflac_plugin.dll
+		VLC\plugins\codec\libg711_plugin.dll = VLC\plugins\codec\libg711_plugin.dll
+		VLC\plugins\codec\libkate_plugin.dll = VLC\plugins\codec\libkate_plugin.dll
+		VLC\plugins\codec\liblibass_plugin.dll = VLC\plugins\codec\liblibass_plugin.dll
+		VLC\plugins\codec\liblibmpeg2_plugin.dll = VLC\plugins\codec\liblibmpeg2_plugin.dll
+		VLC\plugins\codec\liblpcm_plugin.dll = VLC\plugins\codec\liblpcm_plugin.dll
+		VLC\plugins\codec\libmpeg_audio_plugin.dll = VLC\plugins\codec\libmpeg_audio_plugin.dll
+		VLC\plugins\codec\libopus_plugin.dll = VLC\plugins\codec\libopus_plugin.dll
+		VLC\plugins\codec\libpng_plugin.dll = VLC\plugins\codec\libpng_plugin.dll
+		VLC\plugins\codec\libqsv_plugin.dll = VLC\plugins\codec\libqsv_plugin.dll
+		VLC\plugins\codec\libquicktime_plugin.dll = VLC\plugins\codec\libquicktime_plugin.dll
+		VLC\plugins\codec\librawvideo_plugin.dll = VLC\plugins\codec\librawvideo_plugin.dll
+		VLC\plugins\codec\libschroedinger_plugin.dll = VLC\plugins\codec\libschroedinger_plugin.dll
+		VLC\plugins\codec\libscte27_plugin.dll = VLC\plugins\codec\libscte27_plugin.dll
+		VLC\plugins\codec\libspeex_plugin.dll = VLC\plugins\codec\libspeex_plugin.dll
+		VLC\plugins\codec\libspudec_plugin.dll = VLC\plugins\codec\libspudec_plugin.dll
+		VLC\plugins\codec\libstl_plugin.dll = VLC\plugins\codec\libstl_plugin.dll
+		VLC\plugins\codec\libsubsdec_plugin.dll = VLC\plugins\codec\libsubsdec_plugin.dll
+		VLC\plugins\codec\libsubsusf_plugin.dll = VLC\plugins\codec\libsubsusf_plugin.dll
+		VLC\plugins\codec\libsvcdsub_plugin.dll = VLC\plugins\codec\libsvcdsub_plugin.dll
+		VLC\plugins\codec\libt140_plugin.dll = VLC\plugins\codec\libt140_plugin.dll
+		VLC\plugins\codec\libtheora_plugin.dll = VLC\plugins\codec\libtheora_plugin.dll
+		VLC\plugins\codec\libtwolame_plugin.dll = VLC\plugins\codec\libtwolame_plugin.dll
+		VLC\plugins\codec\libuleaddvaudio_plugin.dll = VLC\plugins\codec\libuleaddvaudio_plugin.dll
+		VLC\plugins\codec\libvorbis_plugin.dll = VLC\plugins\codec\libvorbis_plugin.dll
+		VLC\plugins\codec\libx264_plugin.dll = VLC\plugins\codec\libx264_plugin.dll
+		VLC\plugins\codec\libzvbi_plugin.dll = VLC\plugins\codec\libzvbi_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demux", "demux", "{4BDCC9BB-7F0F-4587-93EE-38D05A4E7832}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\demux\libaiff_plugin.dll = VLC\plugins\demux\libaiff_plugin.dll
+		VLC\plugins\demux\libasf_plugin.dll = VLC\plugins\demux\libasf_plugin.dll
+		VLC\plugins\demux\libau_plugin.dll = VLC\plugins\demux\libau_plugin.dll
+		VLC\plugins\demux\libavi_plugin.dll = VLC\plugins\demux\libavi_plugin.dll
+		VLC\plugins\demux\libdemux_cdg_plugin.dll = VLC\plugins\demux\libdemux_cdg_plugin.dll
+		VLC\plugins\demux\libdemux_stl_plugin.dll = VLC\plugins\demux\libdemux_stl_plugin.dll
+		VLC\plugins\demux\libdemuxdump_plugin.dll = VLC\plugins\demux\libdemuxdump_plugin.dll
+		VLC\plugins\demux\libdirac_plugin.dll = VLC\plugins\demux\libdirac_plugin.dll
+		VLC\plugins\demux\libes_plugin.dll = VLC\plugins\demux\libes_plugin.dll
+		VLC\plugins\demux\libflacsys_plugin.dll = VLC\plugins\demux\libflacsys_plugin.dll
+		VLC\plugins\demux\libgme_plugin.dll = VLC\plugins\demux\libgme_plugin.dll
+		VLC\plugins\demux\libh264_plugin.dll = VLC\plugins\demux\libh264_plugin.dll
+		VLC\plugins\demux\libimage_plugin.dll = VLC\plugins\demux\libimage_plugin.dll
+		VLC\plugins\demux\libmjpeg_plugin.dll = VLC\plugins\demux\libmjpeg_plugin.dll
+		VLC\plugins\demux\libmkv_plugin.dll = VLC\plugins\demux\libmkv_plugin.dll
+		VLC\plugins\demux\libmod_plugin.dll = VLC\plugins\demux\libmod_plugin.dll
+		VLC\plugins\demux\libmp4_plugin.dll = VLC\plugins\demux\libmp4_plugin.dll
+		VLC\plugins\demux\libmpc_plugin.dll = VLC\plugins\demux\libmpc_plugin.dll
+		VLC\plugins\demux\libmpgv_plugin.dll = VLC\plugins\demux\libmpgv_plugin.dll
+		VLC\plugins\demux\libnsc_plugin.dll = VLC\plugins\demux\libnsc_plugin.dll
+		VLC\plugins\demux\libnsv_plugin.dll = VLC\plugins\demux\libnsv_plugin.dll
+		VLC\plugins\demux\libnuv_plugin.dll = VLC\plugins\demux\libnuv_plugin.dll
+		VLC\plugins\demux\libogg_plugin.dll = VLC\plugins\demux\libogg_plugin.dll
+		VLC\plugins\demux\libplaylist_plugin.dll = VLC\plugins\demux\libplaylist_plugin.dll
+		VLC\plugins\demux\libps_plugin.dll = VLC\plugins\demux\libps_plugin.dll
+		VLC\plugins\demux\libpva_plugin.dll = VLC\plugins\demux\libpva_plugin.dll
+		VLC\plugins\demux\librawaud_plugin.dll = VLC\plugins\demux\librawaud_plugin.dll
+		VLC\plugins\demux\librawdv_plugin.dll = VLC\plugins\demux\librawdv_plugin.dll
+		VLC\plugins\demux\librawvid_plugin.dll = VLC\plugins\demux\librawvid_plugin.dll
+		VLC\plugins\demux\libreal_plugin.dll = VLC\plugins\demux\libreal_plugin.dll
+		VLC\plugins\demux\libsid_plugin.dll = VLC\plugins\demux\libsid_plugin.dll
+		VLC\plugins\demux\libsmf_plugin.dll = VLC\plugins\demux\libsmf_plugin.dll
+		VLC\plugins\demux\libsubtitle_plugin.dll = VLC\plugins\demux\libsubtitle_plugin.dll
+		VLC\plugins\demux\libts_plugin.dll = VLC\plugins\demux\libts_plugin.dll
+		VLC\plugins\demux\libtta_plugin.dll = VLC\plugins\demux\libtta_plugin.dll
+		VLC\plugins\demux\libty_plugin.dll = VLC\plugins\demux\libty_plugin.dll
+		VLC\plugins\demux\libvc1_plugin.dll = VLC\plugins\demux\libvc1_plugin.dll
+		VLC\plugins\demux\libvobsub_plugin.dll = VLC\plugins\demux\libvobsub_plugin.dll
+		VLC\plugins\demux\libvoc_plugin.dll = VLC\plugins\demux\libvoc_plugin.dll
+		VLC\plugins\demux\libwav_plugin.dll = VLC\plugins\demux\libwav_plugin.dll
+		VLC\plugins\demux\libxa_plugin.dll = VLC\plugins\demux\libxa_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lua", "lua", "{875BAED9-41C5-436D-97A2-A4E5BAF82763}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\lua\liblua_plugin.dll = VLC\plugins\lua\liblua_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "meta_engine", "meta_engine", "{480E2575-542A-4F97-8CFC-2F59CB6F66FD}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\meta_engine\libfolder_plugin.dll = VLC\plugins\meta_engine\libfolder_plugin.dll
+		VLC\plugins\meta_engine\libtaglib_plugin.dll = VLC\plugins\meta_engine\libtaglib_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mmx", "mmx", "{D68E50F3-074A-4F9B-97A9-EB500DAC9CBE}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\mmx\libi420_rgb_mmx_plugin.dll = VLC\plugins\mmx\libi420_rgb_mmx_plugin.dll
+		VLC\plugins\mmx\libi420_yuy2_mmx_plugin.dll = VLC\plugins\mmx\libi420_yuy2_mmx_plugin.dll
+		VLC\plugins\mmx\libi422_yuy2_mmx_plugin.dll = VLC\plugins\mmx\libi422_yuy2_mmx_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packetizer", "packetizer", "{0EC9ED7C-82DD-4BF9-935E-50AA3A1E7839}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\packetizer\libpacketizer_copy_plugin.dll = VLC\plugins\packetizer\libpacketizer_copy_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_dirac_plugin.dll = VLC\plugins\packetizer\libpacketizer_dirac_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_flac_plugin.dll = VLC\plugins\packetizer\libpacketizer_flac_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_h264_plugin.dll = VLC\plugins\packetizer\libpacketizer_h264_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_mlp_plugin.dll = VLC\plugins\packetizer\libpacketizer_mlp_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_mpeg4audio_plugin.dll = VLC\plugins\packetizer\libpacketizer_mpeg4audio_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_mpeg4video_plugin.dll = VLC\plugins\packetizer\libpacketizer_mpeg4video_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_mpegvideo_plugin.dll = VLC\plugins\packetizer\libpacketizer_mpegvideo_plugin.dll
+		VLC\plugins\packetizer\libpacketizer_vc1_plugin.dll = VLC\plugins\packetizer\libpacketizer_vc1_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services_discovery", "services_discovery", "{2DB47ABF-C78E-4A53-864C-B4418E3FBB43}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\services_discovery\libmediadirs_plugin.dll = VLC\plugins\services_discovery\libmediadirs_plugin.dll
+		VLC\plugins\services_discovery\libpodcast_plugin.dll = VLC\plugins\services_discovery\libpodcast_plugin.dll
+		VLC\plugins\services_discovery\libsap_plugin.dll = VLC\plugins\services_discovery\libsap_plugin.dll
+		VLC\plugins\services_discovery\libupnp_plugin.dll = VLC\plugins\services_discovery\libupnp_plugin.dll
+		VLC\plugins\services_discovery\libwindrive_plugin.dll = VLC\plugins\services_discovery\libwindrive_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sse2", "sse2", "{5AF762A9-531B-442F-B89C-57FE409074D6}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\sse2\libi420_rgb_sse2_plugin.dll = VLC\plugins\sse2\libi420_rgb_sse2_plugin.dll
+		VLC\plugins\sse2\libi420_yuy2_sse2_plugin.dll = VLC\plugins\sse2\libi420_yuy2_sse2_plugin.dll
+		VLC\plugins\sse2\libi422_yuy2_sse2_plugin.dll = VLC\plugins\sse2\libi422_yuy2_sse2_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stream_filter", "stream_filter", "{FE0FF3E4-5230-4A1D-8CFC-C702955A70E0}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\stream_filter\libdash_plugin.dll = VLC\plugins\stream_filter\libdash_plugin.dll
+		VLC\plugins\stream_filter\libhttplive_plugin.dll = VLC\plugins\stream_filter\libhttplive_plugin.dll
+		VLC\plugins\stream_filter\librecord_plugin.dll = VLC\plugins\stream_filter\librecord_plugin.dll
+		VLC\plugins\stream_filter\libsmooth_plugin.dll = VLC\plugins\stream_filter\libsmooth_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "text_renderer", "text_renderer", "{3AC55F99-0370-4E10-B2B9-7931F17B533E}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\text_renderer\libfreetype_plugin.dll = VLC\plugins\text_renderer\libfreetype_plugin.dll
+		VLC\plugins\text_renderer\libtdummy_plugin.dll = VLC\plugins\text_renderer\libtdummy_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "video_chroma", "video_chroma", "{5C608129-5B8C-41B4-B8FA-64A076500D75}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\video_chroma\libgrey_yuv_plugin.dll = VLC\plugins\video_chroma\libgrey_yuv_plugin.dll
+		VLC\plugins\video_chroma\libi420_rgb_plugin.dll = VLC\plugins\video_chroma\libi420_rgb_plugin.dll
+		VLC\plugins\video_chroma\libi420_yuy2_plugin.dll = VLC\plugins\video_chroma\libi420_yuy2_plugin.dll
+		VLC\plugins\video_chroma\libi422_i420_plugin.dll = VLC\plugins\video_chroma\libi422_i420_plugin.dll
+		VLC\plugins\video_chroma\libi422_yuy2_plugin.dll = VLC\plugins\video_chroma\libi422_yuy2_plugin.dll
+		VLC\plugins\video_chroma\librv32_plugin.dll = VLC\plugins\video_chroma\librv32_plugin.dll
+		VLC\plugins\video_chroma\libyuy2_i420_plugin.dll = VLC\plugins\video_chroma\libyuy2_i420_plugin.dll
+		VLC\plugins\video_chroma\libyuy2_i422_plugin.dll = VLC\plugins\video_chroma\libyuy2_i422_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "video_filter", "video_filter", "{0E92C636-181F-4659-9BC3-A926CB2AEC51}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\video_filter\libadjust_plugin.dll = VLC\plugins\video_filter\libadjust_plugin.dll
+		VLC\plugins\video_filter\libalphamask_plugin.dll = VLC\plugins\video_filter\libalphamask_plugin.dll
+		VLC\plugins\video_filter\libanaglyph_plugin.dll = VLC\plugins\video_filter\libanaglyph_plugin.dll
+		VLC\plugins\video_filter\libantiflicker_plugin.dll = VLC\plugins\video_filter\libantiflicker_plugin.dll
+		VLC\plugins\video_filter\libatmo_plugin.dll = VLC\plugins\video_filter\libatmo_plugin.dll
+		VLC\plugins\video_filter\libaudiobargraph_v_plugin.dll = VLC\plugins\video_filter\libaudiobargraph_v_plugin.dll
+		VLC\plugins\video_filter\libball_plugin.dll = VLC\plugins\video_filter\libball_plugin.dll
+		VLC\plugins\video_filter\libblend_plugin.dll = VLC\plugins\video_filter\libblend_plugin.dll
+		VLC\plugins\video_filter\libblendbench_plugin.dll = VLC\plugins\video_filter\libblendbench_plugin.dll
+		VLC\plugins\video_filter\libbluescreen_plugin.dll = VLC\plugins\video_filter\libbluescreen_plugin.dll
+		VLC\plugins\video_filter\libcanvas_plugin.dll = VLC\plugins\video_filter\libcanvas_plugin.dll
+		VLC\plugins\video_filter\libchain_plugin.dll = VLC\plugins\video_filter\libchain_plugin.dll
+		VLC\plugins\video_filter\libclone_plugin.dll = VLC\plugins\video_filter\libclone_plugin.dll
+		VLC\plugins\video_filter\libcolorthres_plugin.dll = VLC\plugins\video_filter\libcolorthres_plugin.dll
+		VLC\plugins\video_filter\libcroppadd_plugin.dll = VLC\plugins\video_filter\libcroppadd_plugin.dll
+		VLC\plugins\video_filter\libdeinterlace_plugin.dll = VLC\plugins\video_filter\libdeinterlace_plugin.dll
+		VLC\plugins\video_filter\liberase_plugin.dll = VLC\plugins\video_filter\liberase_plugin.dll
+		VLC\plugins\video_filter\libextract_plugin.dll = VLC\plugins\video_filter\libextract_plugin.dll
+		VLC\plugins\video_filter\libgaussianblur_plugin.dll = VLC\plugins\video_filter\libgaussianblur_plugin.dll
+		VLC\plugins\video_filter\libgradfun_plugin.dll = VLC\plugins\video_filter\libgradfun_plugin.dll
+		VLC\plugins\video_filter\libgradient_plugin.dll = VLC\plugins\video_filter\libgradient_plugin.dll
+		VLC\plugins\video_filter\libgrain_plugin.dll = VLC\plugins\video_filter\libgrain_plugin.dll
+		VLC\plugins\video_filter\libhqdn3d_plugin.dll = VLC\plugins\video_filter\libhqdn3d_plugin.dll
+		VLC\plugins\video_filter\libinvert_plugin.dll = VLC\plugins\video_filter\libinvert_plugin.dll
+		VLC\plugins\video_filter\liblogo_plugin.dll = VLC\plugins\video_filter\liblogo_plugin.dll
+		VLC\plugins\video_filter\libmagnify_plugin.dll = VLC\plugins\video_filter\libmagnify_plugin.dll
+		VLC\plugins\video_filter\libmarq_plugin.dll = VLC\plugins\video_filter\libmarq_plugin.dll
+		VLC\plugins\video_filter\libmirror_plugin.dll = VLC\plugins\video_filter\libmirror_plugin.dll
+		VLC\plugins\video_filter\libmosaic_plugin.dll = VLC\plugins\video_filter\libmosaic_plugin.dll
+		VLC\plugins\video_filter\libmotionblur_plugin.dll = VLC\plugins\video_filter\libmotionblur_plugin.dll
+		VLC\plugins\video_filter\libmotiondetect_plugin.dll = VLC\plugins\video_filter\libmotiondetect_plugin.dll
+		VLC\plugins\video_filter\libpanoramix_plugin.dll = VLC\plugins\video_filter\libpanoramix_plugin.dll
+		VLC\plugins\video_filter\libposterize_plugin.dll = VLC\plugins\video_filter\libposterize_plugin.dll
+		VLC\plugins\video_filter\libpostproc_plugin.dll = VLC\plugins\video_filter\libpostproc_plugin.dll
+		VLC\plugins\video_filter\libpsychedelic_plugin.dll = VLC\plugins\video_filter\libpsychedelic_plugin.dll
+		VLC\plugins\video_filter\libpuzzle_plugin.dll = VLC\plugins\video_filter\libpuzzle_plugin.dll
+		VLC\plugins\video_filter\libremoteosd_plugin.dll = VLC\plugins\video_filter\libremoteosd_plugin.dll
+		VLC\plugins\video_filter\libripple_plugin.dll = VLC\plugins\video_filter\libripple_plugin.dll
+		VLC\plugins\video_filter\librotate_plugin.dll = VLC\plugins\video_filter\librotate_plugin.dll
+		VLC\plugins\video_filter\librss_plugin.dll = VLC\plugins\video_filter\librss_plugin.dll
+		VLC\plugins\video_filter\libscale_plugin.dll = VLC\plugins\video_filter\libscale_plugin.dll
+		VLC\plugins\video_filter\libscene_plugin.dll = VLC\plugins\video_filter\libscene_plugin.dll
+		VLC\plugins\video_filter\libsepia_plugin.dll = VLC\plugins\video_filter\libsepia_plugin.dll
+		VLC\plugins\video_filter\libsharpen_plugin.dll = VLC\plugins\video_filter\libsharpen_plugin.dll
+		VLC\plugins\video_filter\libsubsdelay_plugin.dll = VLC\plugins\video_filter\libsubsdelay_plugin.dll
+		VLC\plugins\video_filter\libswscale_plugin.dll = VLC\plugins\video_filter\libswscale_plugin.dll
+		VLC\plugins\video_filter\libtransform_plugin.dll = VLC\plugins\video_filter\libtransform_plugin.dll
+		VLC\plugins\video_filter\libwall_plugin.dll = VLC\plugins\video_filter\libwall_plugin.dll
+		VLC\plugins\video_filter\libwave_plugin.dll = VLC\plugins\video_filter\libwave_plugin.dll
+		VLC\plugins\video_filter\libyuvp_plugin.dll = VLC\plugins\video_filter\libyuvp_plugin.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "video_output", "video_output", "{3A7D27E1-08B3-4B51-8230-1D3A52C2BA04}"
+	ProjectSection(SolutionItems) = preProject
+		VLC\plugins\video_output\libcaca_plugin.dll = VLC\plugins\video_output\libcaca_plugin.dll
+		VLC\plugins\video_output\libdirect2d_plugin.dll = VLC\plugins\video_output\libdirect2d_plugin.dll
+		VLC\plugins\video_output\libdirect3d_plugin.dll = VLC\plugins\video_output\libdirect3d_plugin.dll
+		VLC\plugins\video_output\libdirectdraw_plugin.dll = VLC\plugins\video_output\libdirectdraw_plugin.dll
+		VLC\plugins\video_output\libdrawable_plugin.dll = VLC\plugins\video_output\libdrawable_plugin.dll
+		VLC\plugins\video_output\libglwin32_plugin.dll = VLC\plugins\video_output\libglwin32_plugin.dll
+		VLC\plugins\video_output\libvdummy_plugin.dll = VLC\plugins\video_output\libvdummy_plugin.dll
+		VLC\plugins\video_output\libvmem_plugin.dll = VLC\plugins\video_output\libvmem_plugin.dll
+		VLC\plugins\video_output\libwingdi_plugin.dll = VLC\plugins\video_output\libwingdi_plugin.dll
+		VLC\plugins\video_output\libyuv_plugin.dll = VLC\plugins\video_output\libyuv_plugin.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D37A724-C283-4FF0-B7ED-2C82B3A9C0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D37A724-C283-4FF0-B7ED-2C82B3A9C0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D37A724-C283-4FF0-B7ED-2C82B3A9C0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D37A724-C283-4FF0-B7ED-2C82B3A9C0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58F20A3A-9CB0-48B4-A8DA-160826DC2AB6} = {68825DBC-7E63-4772-A32D-1357D4858A1B}
+		{D63784DB-5255-45C3-A554-5162DF794606} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{6EE82D27-B258-4DDD-8DD2-8CDFC12ED916} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{2F9AA692-CF9A-4C75-A335-A8692F27CA89} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{0FB1729C-0CDE-43B8-8464-830FBAFDC180} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{BC5AAEED-3346-4305-A6AA-CC0943017AEB} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{4BDCC9BB-7F0F-4587-93EE-38D05A4E7832} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{875BAED9-41C5-436D-97A2-A4E5BAF82763} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{480E2575-542A-4F97-8CFC-2F59CB6F66FD} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{D68E50F3-074A-4F9B-97A9-EB500DAC9CBE} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{0EC9ED7C-82DD-4BF9-935E-50AA3A1E7839} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{2DB47ABF-C78E-4A53-864C-B4418E3FBB43} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{5AF762A9-531B-442F-B89C-57FE409074D6} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{FE0FF3E4-5230-4A1D-8CFC-C702955A70E0} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{3AC55F99-0370-4E10-B2B9-7931F17B533E} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{5C608129-5B8C-41B4-B8FA-64A076500D75} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{0E92C636-181F-4659-9BC3-A926CB2AEC51} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+		{3A7D27E1-08B3-4B51-8230-1D3A52C2BA04} = {58F20A3A-9CB0-48B4-A8DA-160826DC2AB6}
+	EndGlobalSection
+EndGlobal
